@@ -36,7 +36,7 @@ overlay /system/lib64 overlay ro,lowerdir=/product/pangu/system/lib64/:/system/l
 
 system_ext /system_ext ext4 ro wait,avb,logical,first_stage_mount,slotselect
 
-
+odm /odm ext4 ro wait,slotselect,avb,logical,first_stage_mount
 
 
 /dev/block/by-name/metadata /metadata ext4 noatime,nosuid,nodev,discard wait,check,formattable,first_stage_mount

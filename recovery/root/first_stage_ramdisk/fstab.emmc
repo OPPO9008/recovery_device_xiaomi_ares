@@ -34,7 +34,7 @@ overlay /system/etc/permissions overlay ro,lowerdir=/mnt/vendor/mi_ext/system/et
 overlay /system/lib overlay ro,lowerdir=/product/pangu/system/lib/:/system/lib check,nofail
 overlay /system/lib64 overlay ro,lowerdir=/product/pangu/system/lib64/:/system/lib64 check,nofail
 
-
+odm /odm ext4 ro wait,slotselect,avb,logical,first_stage_mount
 
 
 
